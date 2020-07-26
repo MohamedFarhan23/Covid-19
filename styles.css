@@ -514,6 +514,7 @@ footer h4{
 	.header-content>*{
 		margin-left: 10%;
 	}
+	
 	.section-1{
 		flex-wrap: wrap;
 	}
@@ -600,9 +601,12 @@ footer h4{
 		color:var(--green);
 		border: none;
 	}
-	.none{
+	.ul-container{
 		display: none;
-		background-color: red;;
+	}
+	.none{
+		display: block;
+		width: 100%;
 	}
 	.one .ul{
 		margin-bottom: 30px;
