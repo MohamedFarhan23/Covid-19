@@ -43,7 +43,6 @@ body{
 
 .nav-container li {
 	list-style-type: none;
-	
 }
 .nav-container a{
 	text-decoration: none;
@@ -80,39 +79,39 @@ main{
 	justify-content: space-between;
 
 }
- .header-content{
+.header-content{
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	min-width: 50%;
 }
- .header-content >*{
+.header-content >*{
 	margin: 0 auto;
 	font-size:1rem;
 	margin-left:20%;
 	max-width: 75%;
 }
- .header-content .sub-title{
+.header-content .sub-title{
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 700;
 	font-size:1rem;
 	color: var(--orange);	
 	margin-top:5px;
 }
- .header-content .main-text{
+.header-content .main-text{
 	color: var(--green);
 	font-size: 2.5rem;	
 	font-weight: bold;
 	font-family: 'Red Hat Display', sans-serif;
 
 }
- .header-content .description{
+.header-content .description{
 	margin-top: 30px;
 	line-height: 1.7rem;
 	text-transform: capitalize;
 }
-	.button-wrapper{
+.button-wrapper{
 	margin-top: 40px;
 }
 main .button-wrapper button{
@@ -235,7 +234,6 @@ main .header-content{
 }
 .section-3 .box-1{
 	border-bottom: 5px solid #FA5652;
-
 }
 .section-3 .image-container{
 	width: 200px;
@@ -476,14 +474,12 @@ span.traingle-up img{
 	height: 70px;
 	border-radius: 60px;;
 }
-	
 .contact-form form input[type="text"]{
 	width:65%;
 	height: 80%;
 	border-radius: 60px;;
 	border:none;
 }	
-
 .contact-form input[type='submit']{
 	width: 30%;	
 	height: 70%;
@@ -500,7 +496,6 @@ span.traingle-up img{
 .nav-container .social{
 	display: flex;
 	min-width:200px;
-
 }
 footer h4{
 	text-align:center;
@@ -511,7 +506,7 @@ footer h4{
 	margin:40px auto;
 	margin-bottom: 30px;
 }
-/* less than 800px */
+/* viewport less than 800px */
 @media screen and (max-width:800px){
 	main{
 		flex-wrap: wrap;
@@ -616,14 +611,12 @@ footer h4{
 		flex-wrap: nowrap;
 		justify-content: space-around;
 	}
-
-	
 	.one{
 		width: 95%;
 	}
 	
 }
-/* below 400px */
+/* view port below 400px */
 @media screen and (max-width: 400px){
 
 
@@ -757,7 +750,6 @@ main .image-container{
 .section-6 .flex-container{
 	flex-wrap: wrap;
 }
-
 .map-section .search-wrapper{
 	left:70%;
 }
